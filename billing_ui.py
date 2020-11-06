@@ -94,7 +94,7 @@ remove_item=Button(F6,text="Remove Item",command=remove_item,bg="cadetblue",fg="
 
 #This will create another subframe in the page to view the various buttons like Total,Generate Bill, Exit,Clear
 
-F7=LabelFrame(window,bd=10,relief=GROOVE,text="Bill Menu",font=("times new roman",15,"bold"),fg="red")
+F7=LabelFrame(window,bd=10,relief=GROOVE,text="Operations",font=("times new roman",15,"bold"),fg="red")
 F7.place(x=0,y=window.winfo_screenheight()/3+400,height=100,width=600)
 
 Total_btn=Button(F7,command=total,text="Total",bg="cadetblue",fg="white",bd=5,pady=10, width=9, font=("arial 14 bold")).grid(row=0,column=0,padx=2,pady=5)
